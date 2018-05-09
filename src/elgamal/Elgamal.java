@@ -5,7 +5,7 @@
  */
 
 package elgamal;
-
+import elgamal.PrimeGenerator;
 /**
  *
  * @author Imperial-lab
@@ -17,6 +17,8 @@ public class Elgamal {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        PrimeGenerator generator = new PrimeGenerator(8);
+        System.out.print(generator.getPrimeNumber());
     }
     
 }

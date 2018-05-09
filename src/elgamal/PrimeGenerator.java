@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Random;
 
 /*
-*@PrimeGenerator a class thatgenerates prime numbers
+*@PrimeGenerator a class that generates prime numbers
 *
 */
 
@@ -29,6 +29,10 @@ public class PrimeGenerator{
        
         this.customNumberOfBits = numberOfBits;
         limitOfPrime();
+    }
+
+    PrimeGenerator() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     private void limitOfPrime() throws ArithmeticException{
