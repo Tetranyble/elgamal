@@ -1,4 +1,4 @@
-package elgamals;
+package elgamal;
 
 import java.util.ArrayList;
 import java.util.List;
