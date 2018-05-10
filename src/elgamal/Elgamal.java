@@ -5,7 +5,7 @@
  */
 
 package elgamal;
-import elgamal.PrimeGenerator;
+
 /**
  *
  * @author Imperial-lab
